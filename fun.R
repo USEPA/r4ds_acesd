@@ -24,4 +24,4 @@ devtools::install_github("R-CoderDotCom/ggcats")
 library(ggcats)
 library("ggplot2")
 ggplot(mtcars) +
-  geom_cat(aes(mpg, wt), cat = "pusheen", size = 5)
+  geom_cat(aes(mpg, wt), cat = "lucky", size = 5)
